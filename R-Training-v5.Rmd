@@ -425,8 +425,6 @@ So that's a plot, does what it says on the tin, but what is better than a static
 
 Interactive plots...
 
-```
-
 
 # Library - plotly
 
@@ -666,7 +664,7 @@ You can hover over the words in the cloud and it will tell you the word and give
 
 ```{r cloudywithachanceofwords}
 
-
+##### Note that this section may not run if your VPN has high security ##### 
 ## reads in text file from the interwebz
 filePath <- "https://www.gutenberg.org/files/11/11-0.txt"
 text <- readLines(filePath)
