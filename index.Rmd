@@ -1,0 +1,18 @@
+---
+title: "RMarkdown example used in NHS-R Community Intro to R and R Studio"
+author: "Simon Wellesley-Miller"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(magrittr)
+```
+
+## View slides
+
+```{r echo=FALSE, results="asis"}
+dir(pattern = "\\R.*\\.Rmd") %>%
+  stringr::str_replace(".Rmd", ".html") %>%
+  paste(" * [", ., "](", ., ")", sep = "", collapse = "\n") %>%
+  cat("\n")
+```
