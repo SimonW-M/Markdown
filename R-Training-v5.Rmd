@@ -4,6 +4,7 @@ author: "Simon Wellesley-Miller"
 date: "09/07/2020"
 output: 
   html_document:
+    code_download: yes
     toc: true
     toc_float: true
 ---
